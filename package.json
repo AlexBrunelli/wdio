@@ -1,0 +1,24 @@
+{
+  "name": "WdioTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.3.0"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^7.3.0",
+    "@wdio/mocha-framework": "^7.3.0",
+    "@wdio/selenium-standalone-service": "^7.3.0",
+    "@wdio/spec-reporter": "^7.3.0",
+    "@wdio/sync": "^7.3.0",
+    "mochawesome": "^6.2.2",
+    "wdio-mochawesome-reporter": "^4.0.0"
+  }
+}
